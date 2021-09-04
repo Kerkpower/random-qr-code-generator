@@ -3,9 +3,9 @@ import random
 import qrcode #pip install qrcode
 
 with open("words.json") as f:
-    test = json.load(f)
+    word = json.load(f)
 
-word = random.choice(test)
+word = random.choice(word)
 
 print(word)
 
